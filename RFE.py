@@ -1,3 +1,5 @@
+from imblearn.over_sampling import SMOTE
+
 def RFE(DF, EXECUTIONS, COLS_TO_DEL, TARGET, SMOTE_RATE, CUT):
     '''
     DF:dataframe
